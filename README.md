@@ -1,6 +1,6 @@
 # Twinkly Tetris
+Do you have the Twinkly Squares LED panels? With this program, you can play tetris on them! 
 
-## Notice
 This does not break, modify, or otherwise change your twinkly device. Simply use the twinkly app again to kick the device back into normal operation :) 
 
 ## Setup
