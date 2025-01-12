@@ -1,18 +1,3 @@
-""" code tasks:
-    - print score/end screen
-    
-
-    for git readMe
-    - having the twinkly app open while runnning program causes problems
-    - which libraries have to be pip installed?
-    - include python version, twinkly version (device.vers() or something)
-    - include "this does not break, modify, or otherwise change your twinkly device. just use the app again to kick it back into normal"
-    - flags available (Twinkly_D11F1D)
-    - trouble shooting (wrong device connected? just keep trying) (try recalibrating your twinkly device by deleting and readding device)
-    - how it works "we send a big list of bytes in format "/0x00/0xff ... for rgb vals .."
-    - controls (left/right, down, rotate)
-"""
-
 
 import pygame
 import sys
@@ -27,7 +12,7 @@ import signal
 DEFINE_HEIGHT = 8 #y axis, in pixels
 DEFINE_WIDTH = 8 #x axis, in pixels
 DEFINE_PANELS = 1 # number of panels
-DEFINE_DEVICE = "Twinkly_D11F1D" 
+DEFINE_DEVICE = "" 
 DEFINE_ROTATE = 0 #rotate the screen, for 8x8 only
 DEFINE_CLASSIC = False # classic colors 
 
